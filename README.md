@@ -20,7 +20,7 @@ on you machine:
 To get the source of `inventory-manager`, clone the git repository via:
 
 ````
-$ git clone https://github.com/ColuLocalNetwork/inventory-manager
+$ git clone https://github.com/fuseio/inventory-manager
 ````
 
 This will clone the complete source to your local machine.
@@ -39,16 +39,16 @@ This task will run the application and start listening on port `8080`.
 
 Under the hood, we use a complete [osseus](https://github.com/colucom/osseus) stack.
 
-You will find the local configuration at [LOCAL.js](https://github.com/ColuLocalNetwork/inventory-manager/blob/master/config/LOCAL.js).
+You will find the local configuration at [LOCAL.js](https://github.com/fuseio/inventory-manager/blob/master/config/LOCAL.js).
 
 ## Configuration
-See [tutorial](https://github.com/ColuLocalNetwork/inventory-manager/blob/master/CONFIGURATION.md).
+See [tutorial](https://github.com/fuseio/inventory-manager/blob/master/CONFIGURATION.md).
 
 ## Getting Started
-See [tutorial](https://github.com/ColuLocalNetwork/inventory-manager/blob/master/GETTING-STARTED.md).
+See [tutorial](https://github.com/fuseio/inventory-manager/blob/master/GETTING-STARTED.md).
 
 ## Notifications
-See [tutorial](https://github.com/ColuLocalNetwork/inventory-manager/blob/master/NOTIFICATIONS.md).
+See [tutorial](https://github.com/fuseio/inventory-manager/blob/master/NOTIFICATIONS.md).
 
 ## Testing
 
@@ -57,7 +57,7 @@ See [tutorial](https://github.com/ColuLocalNetwork/inventory-manager/blob/master
 
 ### Unit testing
 `npm test` executes (as you might think) the unit tests, which are located
-in [`test`](https://github.com/ColuLocalNetwork/inventory-manager/blob/master/test).
+in [`test`](https://github.com/fuseio/inventory-manager/blob/master/test).
 
 #### Enable a lot of transactions test
 Before running `npm test` you should:
@@ -80,7 +80,7 @@ docker-compose up -d
 ```
 
 ## Contributing
-Please see [contributing guidelines](https://github.com/ColuLocalNetwork/inventory-manager/blob/master/.github/CONTRIBUTING.md).
+Please see [contributing guidelines](https://github.com/fuseio/inventory-manager/blob/master/.github/CONTRIBUTING.md).
 
 ## License
-Code released under the [MIT License](https://github.com/ColuLocalNetwork/inventory-manager/blob/master/LICENSE).
+Code released under the [MIT License](https://github.com/fuseio/inventory-manager/blob/master/LICENSE).
